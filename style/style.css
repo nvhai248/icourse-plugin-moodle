@@ -1,0 +1,46 @@
+body {
+    background-color: #f9f9f9;
+}
+
+.icourse-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.icourse-table th,
+.icourse-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+
+.icourse-table th {
+    background-color: #f4f4f4;
+    text-align: left;
+}
+
+.icourse-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    background-color: #f4f4f4;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.icourse-button:hover {
+    background-color: #bad9f8;
+    transform: scale(1.05);
+}
+
+.icourse-button:active {
+    background-color: #bad9f8;
+    transform: scale(0.95);
+}
